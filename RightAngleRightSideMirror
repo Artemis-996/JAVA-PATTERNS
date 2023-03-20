@@ -1,0 +1,97 @@
+// CODE 1
+
+/*    * * * * *
+        * * * *
+          * * *
+            * *
+              *      */
+class RightAngleRightSideMirror
+{
+	public static void main(String[] args) 
+	{
+		
+		int n=5;
+		             
+		for (int i = 0 ; i<n  ; i++ )
+		{
+			for (int j=0;  j<i ; j++ )
+			{
+				System.out.print("  ");
+			}
+			for (int k=0 ;k<n-i ;k++ )
+			{
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+		
+	}
+}
+ 
+ 
+// Code 2
+
+/*   A B C D E
+       F G H I
+         J K L
+           M N
+             O     */
+             
+ class RightAngleRightSideMirror 
+{
+	public static void main(String[] args) 
+	{
+		char ch = 'A';
+		int n=5;
+		 
+		for (int i = 0 ; i<n  ; i++ )
+		{
+			for (int j=0;  j<i ; j++ )
+			{
+				System.out.print("  ");
+			}
+			for (int k=0 ;k<n-i ;k++ )
+			{
+				System.out.print(ch+" ");
+				ch++;
+			}
+			System.out.println();
+		}
+		
+	}
+}
+ 
+ //CODE 3
+ 
+ /*     1 0 1 0 1
+          0 1 0 1
+            0 1 0
+              1 0
+                1     */
+                
+class RightAngleRightSideMirror
+{
+	public static void main(String[] args) 
+	{
+		char ch = 'A';
+		int n=5;
+		 
+		for (int i = 0 ; i<n  ; i++ )
+		{
+			for (int j=0;  j<i ; j++ )
+			{
+				System.out.print("  ");
+			}
+			for (int k=0 ;k<n-i ;k++ )
+			{
+				System.out.print(ch%2+" ");
+				ch++;
+			}
+			System.out.println();
+		}
+		
+	}
+}
+
+
+                 
