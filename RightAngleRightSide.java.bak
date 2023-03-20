@@ -19,7 +19,7 @@ class RightAngleRightSide
 }
 
 
-//OR BELOW CODE
+//OR BELOW CODE 2
 
 class RightAngleRightSide 
 {
@@ -38,6 +38,55 @@ class RightAngleRightSide
 				{
 					System.out.print("* ");
 				}
+			}
+			System.out.println();
+		}
+	}
+}
+
+//OR BELOW CODE 3 - Alphabates A-o
+
+class RightAngleRightSide 
+{
+	public static void main(String[] args) 
+	{
+		char ch = 'A';
+		int n=5;
+		for (int i=0 ;i<n ;i++ )
+		{
+			for (int j=0;j<n-i-1 ;j++ )
+			{
+				System.out.print("  ");
+			}
+			for (int k=0;k<=i ;k++ )
+			{
+				System.out.print(ch+" ");
+				ch++;
+			}
+			System.out.println();
+		}
+	}
+}
+
+//OR BELOW CODE 4 For 101010...
+
+class RightAngleRightSide 
+{
+	public static void main(String[] args) 
+	{
+		char ch = 'A';
+		int n=5;
+		for (int i=0 ;i<n ;i++ )
+		{
+			for (int j=0;j<n-i-1 ;j++ )
+			{
+				System.out.print("  ");
+			}
+			for (int k=0;k<=i ;k++ )
+			{
+				System.out.print(ch%2+" ");
+				ch++;
+				
 			}
 			System.out.println();
 		}
