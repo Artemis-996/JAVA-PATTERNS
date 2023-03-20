@@ -1,0 +1,153 @@
+ EXAMPLE 01 :
+ 
+   1
+  0 1
+ 0 1 0
+1 0 1 0
+1 0 1 0
+ 1 0 1
+  0 1
+   0
+   
+class PyramidPattern 
+{
+	public static void main(String[] args) 
+	{
+		int ch= 1;
+		int n=4;
+		
+		for (int i = 0 ; i<n ; i++ )
+		{
+			for (int j=0 ; j<n-i-1 ; j++ )
+			{
+				System.out.print(" ");
+			}
+			for (int j=0 ; j<=i ; j++ )
+			{
+				System.out.print(ch%2+" ");
+				ch++;
+			}
+		System.out.println();
+		}
+
+
+
+		for (int i = 0; i<n ; i++ )
+		{
+			for (int j=0;j<i ;j++ )
+			{
+				System.out.print(" ");
+			}
+			for (int j=0 ;j<n-i ; j++ )
+			{
+				System.out.print(ch%2+" ");
+				ch++;
+			}
+		System.out.println();
+		}
+	}
+}
+
+
+ EXAMPLE 02 :
+ 
+   *
+  * *
+ * * *
+* * * *
+* * * *
+ * * *
+  * *
+   *
+ 
+ class PyramidPattern 
+{
+	public static void main(String[] args) 
+	{
+		//int ch= 1;
+		int n=4;
+		
+		for (int i = 0 ; i<n ; i++ )
+		{
+			for (int j=0 ; j<n-i-1 ; j++ )
+			{
+				System.out.print(" ");
+			}
+			for (int j=0 ; j<=i ; j++ )
+			{
+				System.out.print("*"+" ");
+				//ch++;
+			}
+		System.out.println();
+		}
+
+
+
+		for (int i = 0; i<n ; i++ )
+		{
+			for (int j=0;j<i ;j++ )
+			{
+				System.out.print(" ");
+			}
+			for (int j=0 ;j<n-i ; j++ )
+			{
+				System.out.print("*"+" ");
+				//ch++;
+			}
+		System.out.println();
+		}
+	}
+}
+
+EXAMPLE 3 :
+
+   A
+  B C
+ D E F
+G H I J
+K L M N
+ O P Q
+  R S
+   T
+ 
+ class PyramidPattern 
+{
+	public static void main(String[] args) 
+	{
+		char ch1= 'A';
+		char ch2= 'K';
+		int n=4;
+		
+		for (int i = 0 ; i<n ; i++ )
+		{
+			for (int j=0 ; j<n-i-1 ; j++ )
+			{
+				System.out.print(" ");
+			}
+			for (int j=0 ; j<=i ; j++ )
+			{
+				System.out.print(ch1+" ");
+				ch1++;
+			}
+		System.out.println();
+		}
+
+
+
+		for (int i = 0; i<n ; i++ )
+		{
+			for (int j=0;j<i ;j++ )
+			{
+				System.out.print(" ");
+			}
+			for (int j=0 ;j<n-i ; j++ )
+			{
+				System.out.print(ch2+" ");
+				ch2++;
+			}
+		System.out.println();
+		}
+	}
+}
+
+
