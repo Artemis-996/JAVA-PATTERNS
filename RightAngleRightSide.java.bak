@@ -1,3 +1,10 @@
+//CODE 1
+
+/*   * * * *
+       * * *
+         * *
+           *     */
+
 class RightAngleRightSide 
 {
 	public static void main(String[] args) 
@@ -19,7 +26,7 @@ class RightAngleRightSide
 }
 
 
-//OR BELOW CODE 2
+//OR BELOW CODE 2 USING IF ELSE
 
 class RightAngleRightSide 
 {
@@ -46,6 +53,12 @@ class RightAngleRightSide
 
 //OR BELOW CODE 3 - Alphabates A-o
 
+/*       A
+       B C
+     D E F
+   G H I J
+ K L M N O      */
+
 class RightAngleRightSide 
 {
 	public static void main(String[] args) 
@@ -69,6 +82,12 @@ class RightAngleRightSide
 }
 
 //OR BELOW CODE 4 For 101010...
+
+/*      1
+      0 1
+    0 1 0
+  1 0 1 0
+1 0 1 0 1  */
 
 class RightAngleRightSide 
 {
