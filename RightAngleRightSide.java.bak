@@ -1,9 +1,9 @@
 //CODE 1
 
-/*   * * * *
-       * * *
-         * *
-           *     */
+* * * *
+  * * *
+    * *
+      *    
 
 class RightAngleRightSide 
 {
@@ -53,11 +53,11 @@ class RightAngleRightSide
 
 //OR BELOW CODE 3 - Alphabates A-o
 
-/*       A
+         A
        B C
      D E F
    G H I J
- K L M N O      */
+ K L M N O      
 
 class RightAngleRightSide 
 {
@@ -83,11 +83,11 @@ class RightAngleRightSide
 
 //OR BELOW CODE 4 For 101010...
 
-/*      1
+        1
       0 1
     0 1 0
   1 0 1 0
-1 0 1 0 1  */
+1 0 1 0 1  
 
 class RightAngleRightSide 
 {
@@ -105,6 +105,45 @@ class RightAngleRightSide
 			{
 				System.out.print(ch%2+" ");
 				ch++;
+				
+			}
+			System.out.println();
+		}
+	}
+}
+
+
+// CODE 4
+
+        1
+      2 2
+    1 1 1
+  2 2 2 2
+1 1 1 1 1
+
+class RightAngleRightSide 
+{
+	public static void main(String[] args) 
+	{
+		
+		int n=5;
+		for (int i=0 ;i<n ;i++ )
+		{
+			for (int j=0;j<n-i-1 ;j++ )
+			{
+				System.out.print("  ");
+			}
+			for (int k=0;k<=i ;k++ )
+			{
+				if (i%2==0)
+				{
+					System.out.print("1"+" ");
+				}
+				else
+				{
+					System.out.print("2"+" ");
+				}
+				
 				
 			}
 			System.out.println();
