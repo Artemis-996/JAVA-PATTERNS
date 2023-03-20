@@ -15,5 +15,5 @@ class RightAngleRightSide
 			}
 			System.out.println();
 		}
-	}
+	} 
 }
